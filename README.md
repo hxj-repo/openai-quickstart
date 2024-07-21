@@ -146,3 +146,31 @@ Django Peng - pjt73651@email.com
 
 项目链接: https://github.com/DjangoPeng/openai-quickstart
 
+
+
+## Homework
+### 1. gpt-4v
+位置：
+> https://github.com/hxj-repo/openai-quickstart/blob/main/openai_api/gpt-4v.ipynb
+
+### 2. openai-translator
+> https://github.com/hxj-repo/openai-quickstart/blob/main/openai-translator/ai_translator/main.py
+
+1. 定位到 openai-quickstart\openai-translator目录下
+2. 执行命令（target_language可替换为指定语言）
+   > python ai_translator/main.py --target_language 日语
+
+   结果：
+   ![openai_translator_Japanese](images/openai_translator_Japanese.jpg)
+   ![openai_translator_Korean](images/openai_translator_Korean.jpg)
+3. router_chain
+   > https://github.com/hxj-repo/openai-quickstart/blob/main/langchain/jupyter/chains/router_chain.ipynb
+
+4. sales-chatbot
+   > https://github.com/hxj-repo/openai-quickstart/blob/main/langchain/sales_chatbot/sales_chatbot.py
+
+   1. 使用chatgpt4生成100条数据放入real_OOCL_sales_data.txt文件中
+   2. 将real_OOCL_sales_data.txt数据读取并且进行split，embedding, 存放到faiss.
+   3. 执行文件sales_chatbot.py
+   结果如下：
+   ![sales_chatbot](images/sales_chatbot.jpg)
